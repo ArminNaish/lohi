@@ -1,0 +1,24 @@
+sozialversicherung:
+  kv: 7.65   # Krankenversicherung: allgemeiner Beitragssatz / 2 + Zusatzbeitragssatz / 2
+  rv: 9.3    # Rentenversicherung
+  pv: 1.775  # Pflegeversicherung: allgemeiner Beitragssatz + Beitragszuschlag für Kinderlose
+  av: 1.2    # Arbeitslosengeldversicherung
+  kv_zb: 0.7 # Zusatzbeitrag Krankenversicherung
+  kv_red: 7  # Krankenversicherung: reduzierter Beitragssatz 
+bemessungsgrenze:
+  rv: 6900
+  av: 6900
+  pv: 4687.50
+  kv: 4687.50
+steuer:
+  soli: 5.5
+freibetrag:
+  grundfreibetrag: 9408
+  kinderfreibetrag: 3906
+  werbungskostenpauschale: 1000
+  sonderausgabenpauschale: 36
+  eingetragenerfreibetrag: 0
+vorsorgepauschale:
+  korrekturfaktor: 80
+  mindestsatz: 12
+  hoechstbetrag: 1900
